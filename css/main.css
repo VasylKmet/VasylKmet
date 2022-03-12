@@ -29,6 +29,7 @@ a:hover{text-decoration: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-weight: 700;}
 
+
 .header{
     /* background-image: url(../img/header.png); */
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.87), rgba(51, 51, 51, 0.87)), url(../img/header.png);
@@ -64,9 +65,13 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
     text-transform: uppercase;
     cursor: pointer;
 }
-/*    HEADER    */
-.nav {
+
+.title{
+    font-size: 30px;
+    margin: 15px 0 60px;
 }
+
+/*    HEADER    */
 
 .nav a{
     color:#fff
@@ -74,10 +79,6 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 
 .menu {
     padding: 50px 0 523px;
-}
-
-.menu__left{
-
 }
 
 .menu__item{
@@ -88,16 +89,11 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
     margin-right:40px ;
 }
 
-.item{
-
-}
-
 .logo__wrapper {
     position: relative;
     margin: 0 99px 0 126px;
 }
-.logo {
-}
+
 .logo__left {
     position: absolute;
     left: 16px;
@@ -118,8 +114,9 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
     text-align: center;
 }
 
-.expencive__rich{
-  
+.expencive__title{
+    font-size:36px;
+    line-height: 49,03px;
 }
 
 .expencive__btn{
@@ -127,28 +124,17 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
    
 }
 
-.coco {
+.expencive__wrapper {
     display: flex;
     justify-content: center;
     /* padding: 30px 0 5px; */
 }
-.coco__item {
-}
 
-.item{
+.expencive__wrapper_img{
     padding: 0 15px 0;
 }
 
-.line{
-    /* position: absolute;
-     border-bottom: solid 1px #fff;  */
-    /* transform: rotate(90deg);
-    width: 100%;
-    height: 0px;    */
-
-}
-
-.small-line{
+.expencive__wrapper_line{
     width: 175px;
     height: 60px;
     border-right: solid 1px #fff;
@@ -168,20 +154,16 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 
 /*                     section 1                   */
 
-.wedding-section{
+.wedding{
     padding: 100px 0 90px;
 }
 
-.beauty {
+.wedding__header {
     text-align: center;
     color: black;
 }
-.event {
-}
-.here {
-    margin: 15px 0 60px;
-}
-.wedding {
+
+.wedding__wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -206,21 +188,24 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 .wedding__text:hover{
     color: #fff;
 }
-.things{
+
+.wedding__footer{
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap ;
     margin-top: 55px;
 }
-.things__wrapper {
+
+.wedding__footer_wrapp {
     margin-bottom: 30px;
     position: relative;
 }
-.things__photo {
+
+.wedding__footer_img {
     background: linear-gradient(180deg, rgba(180, 180, 180, 0) 20.31%, #333333 100%);
 }
 
-.things__text{
+.wedding__footer_text{
     text-transform: uppercase;
     color: #fff;
     position: absolute;
@@ -232,21 +217,22 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 
 /*                  Section 2             */
 
-.section-location {
+.location {
     padding: 100px 0 100px;
     background-image: url(../img/black.png);
 }
-.lacation {
+
+.lacation__wrapper {
     color: #fff;
     width: 730px;
     text-align: center;
     margin: 0 auto;
 }
+
 .lovation__title {
     margin: 15px 0 45px;
 }
-.lovation__text {
-}
+
 .lovation__btn {
     margin-top: 60px;
     background-color: #fff;
@@ -269,33 +255,28 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 
 /*                  section 3              */
 
-.section-advice {
-    padding: 120px 0 120px;
-}
 
-.advices {
+.advices__wrapper {
     text-align: center;
 }
 
-.advice {
+.advices__wrapper {
+    padding: 120px 0 120px;
     color: black;
 }
+
 .advice__text {
     color: #333;
-
 }
 
-.advice__title {
-    margin: 15px 0 60px;
-}
-.advices__wrapper {
+.advices__footer {
     display: flex;
     justify-content: space-between;
 }
-.advices__img {
+.advices__footer_img {
     position:relative;
 }
-.img_text {
+.advices__footer_text {
     color: rgb(255, 255, 255);
     width: 148px;
     text-align: center;
@@ -304,59 +285,41 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
     left: 96px;
 }
 
-.advices__btn {
+.advices__footer_btn {
     margin-top: 60px;
-}
-.advices__btn-text {
-
 }
 
 /*                 section 4                */
 
-.section-video {
+.video {
     padding-bottom: 157px;
     color: black;
 }
 
-.media {
-}
-.media__texts {
+.media__header {
     text-align: center;
 }
 .media__text {
     color: #333;
 }
-.media__title {
-    margin: 15px 0 60px;
-}
-.media__wrapper {
+
+.media__footer {
     display: flex;
     flex-wrap: wrap;
-}
-.media__photo {
-}
-.media__photo-text {
 }
 
 /*                  section 5             */
 
-.section-exclusive{
+.exclusive{
     background: url(../img/black.png);
     padding: 100px 0 120px;
 }
 
-.exclusive {
-
-}
-.exclusive__advice {
+.exclusive__header {
     text-align: center;
 }
-.exclusive__text {
-}
-.exclusive__title {
-    margin: 15px 0 60px;
-}
-.exclusive__wrapper {
+
+.exclusive__footer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,21 +340,20 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 .exclusive__offer-text {
     margin-left: 15px;
 }
-.wrapper-btn {
+.exclusive__btn_wrapper {
     border: solid 1px #fff;
     margin-left: 80px;
 }
-.wrapper-btn__exclusive {
+.exclusive__btn_footer {
     display: flex;
     padding: 14px 15px ;
 }
-.wrapper-btn__input {
+.exclusive__input {
     padding: 15px 87px 15px 20px;
     text-transform: uppercase;
 }
-.btn {
-}
-.btn-exclusive {
+
+.exclusive__btn{
     margin-left: 15px;
 }
 
@@ -399,9 +361,10 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 
 .footer{
     padding-top: 93px;
+    padding-bottom: 20px;
 }
 
-.title{
+.site__title-line{
     padding-bottom: 10px;
     border-bottom: 1px solid #333;
     margin-bottom: 30px;
@@ -413,17 +376,10 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
     justify-content: space-between;
 }
 
-.site-wrapper {
+.site__wrapper {
     width: 255px;
 }
 
-.site__subtitle{
-
-}
-.site__title {
-}
-.title {
-}
 .site__text {
     margin-bottom: 15px;
 }
@@ -432,9 +388,6 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
     margin-bottom: 0;
 }
 
-.site-contacts{
-
-}
 .payment__text {
     margin-bottom: 21px;
 }
@@ -465,10 +418,6 @@ h1,h2,h3,h4,h5,h6{font-weight: 700;}
 }
 .sotial-media__img {
     margin-right: 21px;
-}
-
-.sotial-media__img:last-child{
-    margin-right: 0;
 }
 
 .footer-wrapper{
